@@ -5,14 +5,16 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">Hello, I'm VICTOR</h1>
+        <h1 className="hero-title">
+          Hey, I'm Victor <badge>Available for hiring</badge>
+        </h1>
         <p className="hero-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minus
-          ullam dignissimos, veritatis odio obcaecati nam quasi, amet eum fugit,
-          tenetur distinctio provident libero. Libero at ab quas quibusdam
-          eveniet.
+          <h2>
+            +1 year experience. Web developer and App creator. From Leicester,
+            United Kingdom 🇬🇧. Specialized in crafting unique digital
+            experiences
+          </h2>
         </p>
-        <button className="cv-button">Download CV</button>
       </div>
     </section>
   );

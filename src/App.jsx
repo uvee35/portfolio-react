@@ -1,4 +1,5 @@
 import React from "react";
+import "@fontsource-variable/onest";
 import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
 import About from "./components/About/about";
