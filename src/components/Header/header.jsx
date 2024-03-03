@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">EP</div>
+      <div className="logo">UveeDev</div>
       <div className="header-content">
         <button className="cv-button">Download CV</button>
         <div className="theme-switcher">{/* Icons for theme switching */}</div>
