@@ -33,7 +33,14 @@ function Hero() {
           +1 year experience. Web developer and App creator. From Leicester,
           United Kingdom 🇬🇧. Specialized in crafting unique digital experiences.
         </p>
-        <button style={{ fontSize: "1.25rem" }}>Download CV</button>
+        <a
+          href="/src/assets/Cv-victor.pdf"
+          download="Cv-victor.pdf"
+          style={{ fontSize: "1.25rem", textDecoration: "none" }}
+          className="btn btn-primary"
+        >
+          Download CV
+        </a>{" "}
       </div>
     </section>
   );
