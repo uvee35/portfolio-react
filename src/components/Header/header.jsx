@@ -15,6 +15,9 @@ const Header = () => {
             {/* Icons for theme switching */}
           </div>
           <div className="pages-links d-flex">
+            <Link to="/" className="home-link mx-2">
+              Home
+            </Link>
             <Link to="/projects" className="project-link mx-2">
               Projects
             </Link>
