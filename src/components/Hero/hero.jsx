@@ -1,25 +1,39 @@
 import React from "react";
-import "./hero.css";
+import "./hero.css"; // Keep your custom styles as well
 import ButtonComponent from "../ButtonComponent";
-import logoImage from "/src/assets/me.jpeg"; // Ensure the path is correct
+import logoImage from "/src/assets/me.jpeg";
 
 function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-content">
-        <img src={logoImage} alt="Logo" className="hero-logo" />
-        <div className="title-and-button">
-          <h1 className="hero-title">Hey, I'm Victor</h1>
-          <ButtonComponent>Available for hiring</ButtonComponent>
+    <section
+      className="hero d-flex align-items-center"
+      style={{ height: "100vh" }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 d-flex align-items-center">
+            <img
+              src={logoImage}
+              alt="Logo"
+              style={{
+                borderRadius: "50%",
+                width: "120px",
+                height: "120px",
+                objectFit: "cover",
+                marginRight: "20px",
+              }}
+            />
+            <h1 style={{ fontSize: "3rem" }}>Hey, I'm Victor</h1>
+            <ButtonComponent style={{ marginLeft: "auto" }}>
+              Available for hiring
+            </ButtonComponent>
+          </div>
         </div>
-        <article className="hero-description">
-          <h2>
-            +1 year experience. Web developer and App creator. From Leicester,
-            United Kingdom 🇬🇧. Specialized in crafting unique digital
-            experiences
-          </h2>
-        </article>
-        <button className="cv-button">Download CV</button>
+        <p style={{ fontSize: "1.5rem" }}>
+          +1 year experience. Web developer and App creator. From Leicester,
+          United Kingdom 🇬🇧. Specialized in crafting unique digital experiences.
+        </p>
+        <button style={{ fontSize: "1.25rem" }}>Download CV</button>
       </div>
     </section>
   );

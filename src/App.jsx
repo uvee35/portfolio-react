@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "@fontsource-variable/onest";
 import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
@@ -9,15 +10,20 @@ import Footer from "./components/Footer/footer";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      {/* Add more below if needed ✅*/}
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/footer" element={<Footer />} />
+          {/* Define more routes as needed */}
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

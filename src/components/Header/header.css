@@ -1,48 +1,12 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #000;
-  color: #fff;
-}
-
 .logo {
-  font-size: 1.5rem;
+  font-size: 44px;
   font-weight: bold;
 }
 
-.header-content {
-  display: flex;
-  align-items: center;
+.logo-uvee {
+  color: white;
 }
 
-.cv-button {
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
-  border: none;
-  background-color: #fff;
-  color: #000;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.theme-switcher {
-  margin-right: 1rem;
-}
-
-.social-link {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .header-content {
-    margin-top: 1rem;
-  }
+.logo-dev {
+  color: #ffd700;
 }
