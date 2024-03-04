@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css"; //
 
 const Header = () => {
@@ -14,16 +15,16 @@ const Header = () => {
             {/* Icons for theme switching */}
           </div>
           <div className="pages-links d-flex">
-            <a href="#" className="project-link mx-2">
+            <Link to="/projects" className="project-link mx-2">
               Projects
-            </a>
-            <a href="#" className="about-me-link mx-2">
+            </Link>
+            <Link to="/about" className="about-me-link mx-2">
               Who am I?
-            </a>
-            <a href="#" className="contact-link mx-2">
-              Contact
-            </a>
+            </Link>
           </div>
+          <Link to="/contact" className="contact-link mx-2">
+            Contact
+          </Link>
         </div>
       </nav>
     </header>
