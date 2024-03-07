@@ -1,0 +1,55 @@
+
+.card {
+  max-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+  border-radius: 0.25rem; /* Slightly round the corners */
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem; /* Adjust the size as needed */
+  color: #333; /* Dark grey color for text for better readability */
+}
+
+.btn-primary {
+  margin-right: 10px;
+
+  text-decoration: none;
+
+  font-size: 1rem; /* Larger font size for titles */
+
+  background-color: #ffc107; /* Example color */
+  color: black;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.btn-secondary {
+  margin-right: 10px;
+
+  text-decoration: none;
+
+  font-size: 1rem; /* Larger font size for titles */
+
+  background-color: black; /* Example color */
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}

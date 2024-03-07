@@ -1,53 +1,58 @@
-// src/components/Projects/Projects.jsx
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import projectData from "../../project.json";
 import "./project.css";
 
-const projects = [
-  {
-    id: 1,
-    title: "Project One",
-    description: "This is a short description of Project One.",
-    imageUrl: "/path/to/project-one-image.jpg",
-    projectUrl: "#",
-  },
-  {
-    id: 2,
-    title: "Project Two",
-    description: "This is a short description of Project Two.",
-    imageUrl: "/path/to/project-two-image.jpg",
-    projectUrl: "#",
-  },
-  // Add more projects as needed
-];
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
-const Projects = () => {
+const ProjectsPage = () => {
   return (
-    <section className="pt-5 pb-5">
-      <div className="container">
-        <div className="row">
-          {projects.map((project) => (
-            <div key={project.id} className="col-md-4 mb-4">
-              <div className="card">
-                <img
-                  src={project.imageUrl}
-                  className="card-img-top"
-                  alt={project.title}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">{project.title}</h5>
-                  <p className="card-text">{project.description}</p>
-                  <a href={project.projectUrl} className="btn btn-primary">
-                    View Project
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+    <div
+      style={{
+        height: "100vh",
+        marginTop: "20px",
+        paddingTop: "0px",
+      }}
+      className="mx-3"
+    >
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        {projectData.map((project) => (
+          <div className="col" key={project.id}>
+            <Project project={project} />
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default Projects;
+const Project = ({ project }) => {
+  return (
+    <Card style={{ width: "18rem" }}>
+      <Card.Img variant="top" src={project.image} alt={project.title} />
+      <Card.Body>
+        <Card.Title>{project.title}</Card.Title>
+        <Card.Text>{project.description}</Card.Text>
+        <Button
+          variant="primary"
+          href={project.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View App
+        </Button>{" "}
+        {/* This adds a space between the buttons */}
+        <Button
+          variant="secondary"
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github Repo
+        </Button>
+      </Card.Body>
+    </Card>
+  );
+};
+
+export default ProjectsPage;
