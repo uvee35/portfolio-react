@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "@fontsource-variable/onest";
-import { NextUIProvider } from "@nextui-org/react"; 
+import { NextUIProvider } from "@nextui-org/react";
 import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
 import About from "./components/About/about";
@@ -19,9 +19,9 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
             {/* More rutes below uf necessary ✅ */}
           </Routes>
           <Footer />
