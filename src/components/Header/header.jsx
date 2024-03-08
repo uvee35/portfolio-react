@@ -44,6 +44,12 @@ function Header() {
             >
               Contact
             </Nav.Link>
+            <Nav.Link
+              href="/About"
+              style={{ color: "white", fontSize: "20px" }}
+            >
+              About me
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
