@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "@fontsource-variable/onest";
-import { NextUIProvider } from "@nextui-org/react"; // Import NextUIProvider
+import { NextUIProvider } from "@nextui-org/react"; 
 import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
 import About from "./components/About/about";

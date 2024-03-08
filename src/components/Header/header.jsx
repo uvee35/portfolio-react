@@ -4,7 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 
-
 import "./header.css";
 function Header() {
   return (
@@ -52,4 +51,3 @@ function Header() {
   );
 }
 export default Header;
-

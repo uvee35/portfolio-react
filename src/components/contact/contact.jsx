@@ -14,7 +14,10 @@ const ContactPage = () => {
           <Card.Title>Contact Me: </Card.Title>
           <div style={{ marginBottom: "20px" }}>
             <div>
-              <a href="mailto:victormarquesrina@hotmail.com">
+              <a
+                href="mailto:victormarquesrina@hotmail.com"
+                style={{ color: "black" }}
+              >
                 victormarquesrina@hotmail.com
               </a>
             </div>
@@ -22,7 +25,9 @@ const ContactPage = () => {
               <span>07752117594</span>
             </div>
             <div>
-              <a href="https://github.com/uvee35">github.com/uvee35</a>
+              <a href="https://github.com/uvee35" style={{ color: "black" }}>
+                github.com/uvee35{" "}
+              </a>
             </div>
           </div>
           <Form onSubmit={handleSubmit} className="w-100">
