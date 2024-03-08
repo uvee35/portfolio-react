@@ -10,7 +10,7 @@ function Header() {
     <Navbar expand="lg" style={{ backgroundColor: "transparent" }}>
       <Container>
         <Navbar.Brand
-          href="#home"
+          href="/"
           style={{ color: "white", fontSize: "34px", fontWeight: "bold" }}
         >
           Uvee
