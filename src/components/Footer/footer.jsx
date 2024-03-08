@@ -1,9 +1,21 @@
-// src/components/Footer/Footer.jsx
+// Footer.jsx
 import React from "react";
-import "./footer.css";
 
-function Footer() {
-  return <footer className="footer">{/* Content for the Footer */}</footer>;
-}
+const Footer = () => {
+  return (
+    <footer
+      style={{
+        textAlign: "center",
+        padding: "20px 0",
+        backgroundColor: "#333",
+        color: "#fff",
+      }}
+    >
+      <div style={{ fontSize: "20px" }}>
+        All rights reserved to Victor Marques Rina 2024
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
