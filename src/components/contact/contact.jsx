@@ -1,20 +1,68 @@
 import React from "react";
-import "./contact.css";
+import { Container, Form, Button, Card } from "react-bootstrap";
 
-function Contact() {
+const ContactPage = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
+  };
+
   return (
-    <section className="contact">
-      <div className="contact-content">
-        <h2 className="contact-title">Contact Me</h2>
-        <p className="contact-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quis
-          impedit voluptate cupiditate. Delectus perspiciatis assumenda
-          obcaecati, iste totam necessitatibus officia! Voluptates ullam iste
-          quis porro, dolorum omnis modi nesciunt.
-        </p>
-      </div>
-    </section>
-  );
-}
+    <Container style={{ marginTop: "50px" }}>
+      <Card>
+        <Card.Body>
+          <Card.Title>Contact Me: </Card.Title>
+          <div style={{ marginBottom: "20px" }}>
+            <div>
+              <a href="mailto:victormarquesrina@hotmail.com">
+                victormarquesrina@hotmail.com
+              </a>
+            </div>
+            <div>
+              <span>07752117594</span>
+            </div>
+            <div>
+              <a href="https://github.com/uvee35">github.com/uvee35</a>
+            </div>
+          </div>
+          <Form onSubmit={handleSubmit} className="w-100">
+            <h1 style={{ fontSize: "1rem" }}>OR</h1>
+            <Form.Group controlId="formName">
+              <Form.Label>Name:</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter your name"
+                required
+              />
+            </Form.Group>
 
-export default Contact;
+            <Form.Group controlId="formEmail">
+              <Form.Label>Email:</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+            </Form.Group>
+
+            <Form.Group controlId="formMessage">
+              <Form.Label>Message:</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={5}
+                placeholder="Enter your message"
+                required
+              />
+            </Form.Group>
+
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </Card.Body>
+      </Card>
+    </Container>
+  );
+};
+
+export default ContactPage;
