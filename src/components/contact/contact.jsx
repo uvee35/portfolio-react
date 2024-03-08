@@ -27,6 +27,12 @@ const ContactPage = () => {
             <div>
               <a href="https://github.com/uvee35" style={{ color: "black" }}>
                 github.com/uvee35{" "}
+              </a>{" "}
+              <a
+                href="https://www.linkedin.com/in/victor-marques-944209102/"
+                style={{ color: "black" }}
+              >
+                Linkedlin: Victor Marques Rina{" "}
               </a>
             </div>
           </div>
