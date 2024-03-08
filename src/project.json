@@ -3,51 +3,51 @@
 [
     {
         "id": 1,
-        "title": "Console Finance",
-        "description": "A JavaScript script developed to analyze financial records of a company and generate reports.",
-        "github": "https://github.com/TamsinLloyd99/Console-Finances",
-        "url": "https://tamsinlloyd99.github.io/Console-Finances/starter/",
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "title": "News Article Search",
+        "description": "This project is a simple web application that allows users to search for articles using the New York Times Article Search API.",
+        "github": "https://github.com/uvee35/news-project",
+        "url": "https://uvee35.github.io/news-project/",
+        "image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 
     {
         "id": 2,
-        "title": "Coding Quiz",
+        "title": "Quiz Challenge",
         "description": "An interactive quiz experience featuring dynamically updated HTML and CSS powered by JavaScript code.",
-        "github": "https://github.com/TamsinLloyd99/Web-APIs---code-quiz",
-        "url": "https://tamsinlloyd99.github.io/Web-APIs---code-quiz/",
+        "github": "https://github.com/uvee35/coding-quiz-app",
+        "url": "https://uvee35.github.io/coding-quiz-app/",
         "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 3,
-        "title": "Work Day Scheduler",
-        "description": "A simple calendar application made with JavaScript and Day.js that allows a user to save events for each hour of the day.",
-        "github": "https://github.com/TamsinLloyd99/Third-Party-APIs-Daily-Planner-App",
-        "url": "https://tamsinlloyd99.github.io/Third-Party-APIs-Daily-Planner-App/starter/",
+        "title": "Calendar App",
+        "description": "The Daily Planner App is a web application that helps employees with busy schedules manage their time effectively.",
+        "github": "https://github.com/uvee35/calendar-app-js",
+        "url": "https://uvee35.github.io/calendar-app-js/",
         "image": "https://plus.unsplash.com/premium_photo-1682126157704-beacbab4906f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 4,
         "title": "Weather Dashboard",
         "description": "A Weather App designed to provide users with real-time weather information based on their location or a specified city. ",
-        "github": "https://github.com/TamsinLloyd99/Weather-Dashboard",
-        "url": "https://tamsinlloyd99.github.io/Weather-Dashboard/starter/",
+        "github": "https://github.com/uvee35/weather-dash",
+        "url": "",
         "image": "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "id": 5,
-        "title": "Nutrition Website",
-        "description": "A group project website featuring a recipe generator and a meal planner built with third-party APIs.",
+        "title": "Eataway Website", 
+        "description": "This is a website that features a recipe generator and meal planner, both powered by third-party APIs for enhanced functionality.",
         "github": "https://github.com/Uvee35/Eataway-Website",
         "url": "https://uvee35.github.io/Eataway-Website/",
-        "image": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://img.freepik.com/free-photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view_2829-20115.jpg?w=1380&t=st=1709902387~exp=1709902987~hmac=a13db9ffcbfc4e74294af6ba14dedfa99b90dae41a8c6f6f93704690dea13295"
     },
         {
         "id": 6,
         "title": "Password Generator",
-        "description": "An app that runs in the browser and generates a random password based on user-selected criteria.",
-        "github": "https://github.com/TamsinLloyd99/Password-generator",
-        "url": "https://tamsinlloyd99.github.io/Password-generator/",
+        "description": "This browser-based app generates secure passwords tailored to user-selected criteria, providing enhanced online security with ease of use.",
+        "github": "https://github.com/uvee35/password-generator",
+        "url": "https://uvee35.github.io/password-generator/",
         "image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  
     }
     
