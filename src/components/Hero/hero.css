@@ -1,21 +1,21 @@
 /* Media queries */
 @media screen and (max-width: 768px) {
   .hero h1.display-1 {
-    font-size: 6rem; /* Adjust font size for smaller screens */
+    font-size: 6rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .hero img {
-    width: 150px; /* Adjust image size for smaller screens */
+    width: 150px;
     height: 150px;
   }
 
   .hero h1.display-1 {
-    font-size: 4rem; /* Adjust font size for smaller screens */
+    font-size: 4rem;
   }
 
   .hero p.lead {
-    font-size: 1.5rem; /* Adjust paragraph font size for smaller screens */
+    font-size: 1.5rem;
   }
 }

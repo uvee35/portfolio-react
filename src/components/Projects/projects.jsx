@@ -7,17 +7,21 @@ import Button from "react-bootstrap/Button";
 
 const ProjectsPage = () => {
   return (
-    <div
-      style={{
-        height: "100vh",
-        marginTop: "20px",
-        paddingTop: "0px",
-      }}
-      className="mx-3"
-    >
+    <div className="container mt-4">
+      <h2
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "20px",
+          fontSize: "3rem",
+          color: "#ffc107",
+        }}
+      >
+        Projects
+      </h2>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {projectData.map((project) => (
-          <div className="col" key={project.id}>
+          <div className="col mb-4" key={project.id}>
             <Project project={project} />
           </div>
         ))}
@@ -41,7 +45,6 @@ const Project = ({ project }) => {
         >
           View App
         </Button>{" "}
-        {/* This adds a space between the buttons */}
         <Button
           variant="secondary"
           href={project.github}
