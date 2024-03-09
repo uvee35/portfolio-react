@@ -73,7 +73,7 @@ const About = () => {
         </Col>
         <Col md={6}>
           <Card>
-            <Card.Img src="/src/assets/aboutme.png" alt="About Me Image" />
+            <Card.Img src="/images/about-me.jpeg" alt="About Me Image" />
           </Card>
         </Col>
       </Row>

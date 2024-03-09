@@ -5,7 +5,7 @@
     "description": "This project is a simple web application that allows users to search for articles using the New York Times Article Search API.",
     "github": "https://github.com/uvee35/news-project",
     "url": "https://uvee35.github.io/news-project/",
-    "image": "/src/assets/newsproject.webp"
+    "image": "/images/newsproject.webp"
   },
 
   {
@@ -14,7 +14,7 @@
     "description": "An interactive quiz experience featuring dynamically updated HTML and CSS powered by JavaScript code.",
     "github": "https://github.com/uvee35/coding-quiz-app",
     "url": "https://uvee35.github.io/coding-quiz-app/",
-    "image": "/src/assets/codingchallenge.webp"
+    "image": "/images/codingchallenge.webp"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
     "description": "The Daily Planner App is a web application that helps employees with busy schedules manage their time effectively.",
     "github": "https://github.com/uvee35/calendar-app-js",
     "url": "https://uvee35.github.io/calendar-app-js/",
-    "image": "/src/assets/calendar.webp"
+    "image": "/images/calendar.webp"
   },
   {
     "id": 4,
@@ -30,7 +30,7 @@
     "description": "A Weather App designed to provide users with real-time weather information based on their location or a specified city. ",
     "github": "https://github.com/uvee35/weather-dash",
     "url": "",
-    "image": "/src/assets/weather.webp"
+    "image": "/images/weather.webp"
   },
   {
     "id": 5,
@@ -38,7 +38,7 @@
     "description": "This is a website that features a recipe generator and meal planner, both powered by third-party APIs for enhanced functionality.",
     "github": "https://github.com/Uvee35/Eataway-Website",
     "url": "https://uvee35.github.io/Eataway-Website/",
-    "image": "/src/assets/eatway.webp"
+    "image": "/images/eatway.webp"
   },
   {
     "id": 6,
@@ -46,6 +46,6 @@
     "description": "This browser-based app generates secure passwords tailored to user-selected criteria, providing enhanced online security with ease of use.",
     "github": "https://github.com/uvee35/password-generator",
     "url": "https://uvee35.github.io/password-generator/",
-    "image": "/src/assets/password.webp"
+    "image": "/images/password.webp"
   }
 ]
