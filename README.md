@@ -6,6 +6,7 @@ Welcome to Victor Marques' portfolio! This repository contains the source code f
 
 This portfolio showcases Victor Marques' projects, skills, and contact information. It serves as a comprehensive overview of his work and capabilities.
 
+<img width="1424" alt="Screenshot 2024-03-09 at 12 53 56" src="https://github.com/uvee35/portfolio-react/assets/151088688/cb24db32-caf6-4796-875d-f87334cbd371">
 ## Features
 
 - **Home**: Introduction to Victor Marques and a brief overview of his skills.
