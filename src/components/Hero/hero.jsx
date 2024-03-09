@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./hero.css";
 
-import logoImage from "/src/assets/me.jpeg";
+import logoImage from "/images/me.jpeg";
 
 function Hero() {
   const initialMessage = "Hey, I'm Victor";
